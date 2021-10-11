@@ -1,0 +1,67 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 80%;
+    margin:auto;
+}
+/* header sopra */
+.header1{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+    background-color: violet;
+}
+/* header sotto */
+.header2{
+    width: 100%;
+    height: 280px;
+    margin-bottom: 10px;
+    background-color: khaki;
+}
+/* cloearfix */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* contenitore backfround */
+.container{
+    background-color:#0185fe;
+    margin-bottom: 10px;
+}
+/* elemnto sopra le colonne */
+.top{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+/* elementi float colonne */
+.col{
+    float: left;
+    height: 280px;
+}
+/* elemnti in comunr fra le colonne */
+.common{
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+/* colonna centrale */
+.mid{
+    margin:0 2% ;
+    height: 280px;
+    width: 50%;
+}
+/* colonna laterale */
+.lato{
+    width: 23%;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: purple;
+}
