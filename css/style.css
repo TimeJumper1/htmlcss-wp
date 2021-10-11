@@ -3,24 +3,73 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Montserrat ;
 }
+/* contenitore tutto */
 .wrapper{
     width: 80%;
     margin:auto;
 }
-/* header sopra */
-.header1{
+/* controllo per immagini */
+img{
     width: 100%;
-    height: 70px;
-    margin-bottom: 10px;
-    background-color: violet;
+}
+/* header sopra */
+.logo{
+    width: 150px;
+    height: auto;
+    padding-right: 10px;
+    border-right: 1px solid black;
+    margin-bottom: 26px;
+    
+}
+/* MENU */
+/* link */
+.menu a{
+    text-decoration: none;
+    color: #9c9c9c;
+    padding-right: 5px;
+    
+}
+/* spaziature menu */
+.menu{
+    margin-bottom: 30px;
 }
 /* header sotto */
 .header2{
+    position: relative;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+/* inscurimenti immagine */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 280px;
-    margin-bottom: 10px;
-    background-color: khaki;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/* immagine secondo headear */
+.img-header{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/* testo nell'header */
+.testo-immagine{
+   color: white;
+   position: absolute;
+   bottom: 80px;
+   left: 50px; 
+   width: 40%;
+   
+}
+/* main container */
+.container{
+    height: auto;
 }
 /* cloearfix */
 .clearfix::after{
@@ -28,40 +77,62 @@
     display: table;
     clear: both;
 }
-/* contenitore backfround */
-.container{
-    background-color:#0185fe;
-    margin-bottom: 10px;
-}
-/* elemnto sopra le colonne */
+
+/* testi sopra le colonne */
 .top{
-    width: 100%;
-    height: 40px;
     margin-bottom: 20px;
+}
+.top h2{
+    font-size: 40px;  
+}
+.top span{
+    color: #9c9c9c;
 }
 /* elementi float colonne */
 .col{
     float: left;
-    height: 280px;
+    height: auto;
 }
-/* elemnti in comunr fra le colonne */
-.common{
-    background-color: lightblue;
+/* elemnti in comunr fra le immagini delle colonne */
+.common img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
     margin-bottom: 20px;
+}
+/* elemnti in comune colonne */
+.common{
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom:20px ;
+    height: 280px;
+
 }
 /* colonna centrale */
 .mid{
     margin:0 2% ;
-    height: 280px;
+    height: auto;
     width: 50%;
 }
-/* colonna laterale */
-.lato{
+/* colonna destra */
+.lato-destro{
     width: 23%;
 }
+/* colonna sinistra */
+.lato-sinistro{
+    width: 23%;
+}
+
+
 /* footer */
 .footer{
     width: 100%;
-    height: 70px;
-    background-color: purple;
+    text-align: center;
+    margin-top: 30px;
+}
+/* elemnto hearts */
+.heart{
+    color: red;
+    font-size: 40px;
 }
