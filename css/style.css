@@ -35,6 +35,10 @@ img{
 .menu{
     margin-bottom: 30px;
 }
+li{
+    text-decoration: none;
+    display: inline-block;
+}
 /* header sotto */
 .header2{
     position: relative;
